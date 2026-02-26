@@ -1,52 +1,52 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 body {
-  min-height: 100vh;
-  background: linear-gradient(135deg, #899cf4, #c598f2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #899cf4, #c598f2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main {
-  background: rgba(255, 255, 255, 0.104);
-  padding: 30px;
-  border-radius: 14px;
-  width: 400px;
-  text-align: center;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    background: rgba(255, 255, 255, 0.104);
+    padding: 30px;
+    border-radius: 14px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 h2 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .assignment {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .list {
-  text-decoration: none;
-  padding: 15px;
-  border-radius: 10px;
-  background: #f2f4ffdc;
-  color: #333;
-  font-weight: bold;
-  transition: 0.3s;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f2f4ffdc;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .list:hover {
-  background: #4a4aef;
-  color: white;
-  transform: scale(1.03);
+    background: #4a4aef;
+    color: white;
+    transform: scale(1.03);
 }
